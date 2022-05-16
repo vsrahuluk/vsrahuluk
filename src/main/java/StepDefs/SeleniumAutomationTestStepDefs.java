@@ -91,7 +91,6 @@ public class SeleniumAutomationTestStepDefs {
     @After
     public void quitBrowser()
     {
-        driver.close();
         driver.quit();
     }
 
